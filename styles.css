@@ -1,7 +1,17 @@
 .grid-container {
     display: grid;
-    grid-template-columns: 200px 250px;
-    grid-auto-rows: minmax(150px, auto);
-    grid-row-gap: 20 px;
-    grid-column-gap: 10px;
+    grid-template-columns: 
+    200px 250px;
+    grid-auto-rows: 
+    minmax(150px, auto);
+    grid-gap: 20 px;
+    justify-items: stretch;
+    align-items: stretch;
+  
+}
+
+.grid-item-1 {
+    align-self: start;
+    justify-self: center;
+
 }
